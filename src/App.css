@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.mainContainer {
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.contnentContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 80%;
+  width: 80%;
+  border-radius: 15px;
+}
+
+.counterContainer {
+  display: flex;
+  width: 50%;
+  height: 100%;
+  flex-direction: column;
+  align-items: center;
+  background-color: #ffbf1f;
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  padding-left: 4%;
+}
+
+.noNamesImageContainer {
+  height: 70%;
+  width: 100%;
+  margin-top: 10%;
+  border: 1px solid black;
+}
+
+.imageClass {
+  width: 100%;
+  height: 100%;
+}
+
+.ulListContainer {
+  list-style: none;
+  font-weight: bolder;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 70%;
+  justify-content: flex-start;
+  padding-top: 5%;
+  font-size: 18px;
+}
+
+.inputContainer {
+  background-color: #0f172a;
+  color: #ffbf1f;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.InputEl {
+  padding: 1vh;
+  margin: 2%;
+  width: 60%;
+  margin-left: 5%;
+  border-radius: 15px;
+}
+
+.inputElementContainer {
+  width: 100%;
+}
+
+button {
+  background-color: #ffbf1f;
+  color: black;
+  width: 5vw;
+  border: none;
+  border-radius: 15px;
+  padding: 1vh;
+}
